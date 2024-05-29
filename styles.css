@@ -1,0 +1,37 @@
+.starRating {
+  margin-top: 120px;
+  background-color: rgb(218, 227, 227);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+}
+.stars {
+    display: flex;
+    
+    gap: 10px;
+  }
+.active {
+  color: #ffd500;
+  cursor: pointer;
+}
+.inactive {
+  color: #000000;
+  cursor: pointer;
+}
+.resetBtn{
+    margin: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    color:#f35816;
+    cursor: pointer;
+    border: 1px solid rgb(208, 206, 206);
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+.resetBtn:hover{
+    background-color: #ddd;
+
+}
